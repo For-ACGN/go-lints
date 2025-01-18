@@ -1,7 +1,7 @@
 # go-lints
 A script for calling multiple go lint tools.
 
-# Usage
+## Usage
 ```
 Usage of lint:
   -golint      only use golint to check code
@@ -14,7 +14,7 @@ example:
   "go-lints -golint"    only use golint to check code
   "go-lints -gosec -e"  only use gosec and exit on error
 ```
-# Tool
+## Tool
 [golint](https://github.com/golang/lint)
 [gocyclo](https://github.com/fzipp/gocyclo)
 [gosec](https://github.com/securego/gosec)
