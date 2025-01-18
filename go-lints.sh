@@ -55,8 +55,8 @@ function print_help() {
   echo "  -e           interrupt script when detect error"
   echo
   echo "example:"
-  echo "  \"./lint.sh -golint\"    only use golint to check code"
-  echo "  \"./lint.sh -gosec -e\"  only use gosec and exit on error"
+  echo "  \"go-lints.sh -golint\"    only use golint to check code"
+  echo "  \"go-lints.sh -gosec -e\"  only use gosec and exit on error"
 }
 
 function check_all() {

@@ -71,8 +71,8 @@ rem END_is_print_help
   echo   -e           interrupt script when detect error
   echo.
   echo example:
-  echo   "lint -golint"    only use golint to check code
-  echo   "lint -gosec -e"  only use gosec and exit on error
+  echo   "go-lints -golint"    only use golint to check code
+  echo   "go-lints -gosec -e"  only use gosec and exit on error
 goto :EOF
 rem END_print_help
 
